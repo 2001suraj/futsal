@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.futsal"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/suraj/Desktop/programming/flutter/api/futsal-main/android/app/src/main/AndroidManifest.xml:4:5-66
+15-->/Users/suraj/Desktop/programming/flutter/api/futsal-main/android/app/src/main/AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/suraj/.gradle/caches/transforms-3/e6f28f50e7e80f97a626baa2da922f6d/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+16-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/suraj/.gradle/caches/transforms-3/e6f28f50e7e80f97a626baa2da922f6d/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <application
+29        android:name="android.app.Application"
+30        android:allowBackup="true"
+30-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:14:18-44
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.8.0] /Users/suraj/.gradle/caches/transforms-3/574f3f7ded833d649b517fe148248038/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+34        android:label="futsal"
+35        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+36        <activity
+37            android:name="com.example.futsal.MainActivity"
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39            android:exported="true"
+40            android:hardwareAccelerated="true"
+41            android:launchMode="singleTop"
+42            android:theme="@style/LaunchTheme"
+43            android:windowSoftInputMode="adjustResize" >
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+52                android:name="io.flutter.embedding.android.NormalTheme"
+53                android:resource="@style/NormalTheme" />
+54
+55            <intent-filter>
+56                <action android:name="android.intent.action.MAIN" />
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65
+66        <meta-data
+67            android:name="flutterEmbedding"
+68            android:value="2" />
+69        <meta-data
+70            android:name="com.google.android.geo.API_KEY"
+71            android:value="AIzaSyB_BH0EF8XIRbMpkKl3-Tr9G1X9JAXM7pU" />
+72
+73        <provider
+73-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+74            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+74-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+75            android:authorities="com.example.futsal.flutter.image_provider"
+75-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+76            android:exported="false"
+76-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+77            android:grantUriPermissions="true" >
+77-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+78            <meta-data
+78-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+80                android:resource="@xml/flutter_image_picker_file_paths" />
+80-->[:image_picker_android] /Users/suraj/Desktop/programming/flutter/api/futsal-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+81        </provider>
+82
+83        <uses-library
+83-->[androidx.window:window:1.0.0-beta04] /Users/suraj/.gradle/caches/transforms-3/8c52c4f9b0afd78d2f72502eac00cd01/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+84            android:name="androidx.window.extensions"
+84-->[androidx.window:window:1.0.0-beta04] /Users/suraj/.gradle/caches/transforms-3/8c52c4f9b0afd78d2f72502eac00cd01/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-beta04] /Users/suraj/.gradle/caches/transforms-3/8c52c4f9b0afd78d2f72502eac00cd01/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+86        <uses-library
+86-->[androidx.window:window:1.0.0-beta04] /Users/suraj/.gradle/caches/transforms-3/8c52c4f9b0afd78d2f72502eac00cd01/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+87            android:name="androidx.window.sidecar"
+87-->[androidx.window:window:1.0.0-beta04] /Users/suraj/.gradle/caches/transforms-3/8c52c4f9b0afd78d2f72502eac00cd01/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+88            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+88-->[androidx.window:window:1.0.0-beta04] /Users/suraj/.gradle/caches/transforms-3/8c52c4f9b0afd78d2f72502eac00cd01/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+89        <uses-library
+89-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+90            android:name="org.apache.http.legacy"
+90-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+91            android:required="false" />
+91-->[com.google.android.gms:play-services-maps:18.0.2] /Users/suraj/.gradle/caches/transforms-3/7b77ad4d4da278ed3f35730b418358cd/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:18.0.1] /Users/suraj/.gradle/caches/transforms-3/84a6ab93f2da38a81895c97082bc436f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:18.0.1] /Users/suraj/.gradle/caches/transforms-3/84a6ab93f2da38a81895c97082bc436f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:18.0.1] /Users/suraj/.gradle/caches/transforms-3/84a6ab93f2da38a81895c97082bc436f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:18.0.1] /Users/suraj/.gradle/caches/transforms-3/84a6ab93f2da38a81895c97082bc436f/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+97
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:18.0.0] /Users/suraj/.gradle/caches/transforms-3/660d8f8b1aa87526e5d6103cfba3ff37/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:18.0.0] /Users/suraj/.gradle/caches/transforms-3/660d8f8b1aa87526e5d6103cfba3ff37/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:18.0.0] /Users/suraj/.gradle/caches/transforms-3/660d8f8b1aa87526e5d6103cfba3ff37/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+101
+102        <activity
+102-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:15:9-18:58
+103            android:name="com.esewa.android.sdk.payment.ESewaLoginActivity"
+103-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:16:13-76
+104            android:screenOrientation="portrait"
+104-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:17:13-49
+105            android:windowSoftInputMode="adjustResize" />
+105-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:18:13-55
+106        <activity
+106-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:19:9-21:52
+107            android:name="com.esewa.android.sdk.payment.ESewaPaymentConfirmActivity"
+107-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:20:13-85
+108            android:screenOrientation="portrait" />
+108-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:21:13-49
+109        <activity
+109-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:22:9-24:52
+110            android:name="com.esewa.android.sdk.payment.ESewaPaymentActivity"
+110-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:23:13-78
+111            android:screenOrientation="portrait" />
+111-->[:eSewaSdk:] /Users/suraj/.gradle/caches/transforms-3/1e16d24e1fcf31bc9932ec37880bacf3/transformed/jetified-eSewaSdk/AndroidManifest.xml:24:13-49
+112        <activity
+112-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:13:9-15:52
+113            android:name="com.f1soft.esewasdk.ui.ESewaPaymentActivity"
+113-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:14:13-71
+114            android:screenOrientation="portrait" />
+114-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:15:13-49
+115        <activity
+115-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:16:9-19:58
+116            android:name="com.f1soft.esewasdk.ui.ESewaLoginActivity"
+116-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:17:13-69
+117            android:screenOrientation="portrait"
+117-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:18:13-49
+118            android:windowSoftInputMode="adjustResize" />
+118-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:19:13-55
+119        <activity
+119-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:20:9-23:58
+120            android:name="com.f1soft.esewasdk.ui.ESewaPaymentConfirmActivity"
+120-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:21:13-78
+121            android:screenOrientation="portrait"
+121-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:22:13-49
+122            android:windowSoftInputMode="adjustResize" />
+122-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:23:13-55
+123        <activity
+123-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:24:9-27:58
+124            android:name="com.f1soft.esewasdk.ui.ESewaSuccessActivity"
+124-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:25:13-71
+125            android:screenOrientation="portrait"
+125-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:26:13-49
+126            android:windowSoftInputMode="adjustResize" />
+126-->[:esewasdk-release:] /Users/suraj/.gradle/caches/transforms-3/92fb121d9fd8b9742a8669fab1760605/transformed/jetified-esewasdk-release/AndroidManifest.xml:27:13-55
+127    </application>
+128
+129</manifest>
